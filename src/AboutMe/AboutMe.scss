@@ -1,0 +1,37 @@
+.background{
+    min-height: 969px;
+    min-width: 100%;
+    margin:0 auto;
+    padding-left: 0;
+}
+
+.About{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    width: 50%;
+    min-height: 969px;
+    float: left;
+    padding: 400px 0px 0px 80px;
+    h2{
+        font-size: 29px;
+        font-family: 'Merriweather', serif;
+        text-shadow: 6px 6px 0px rgb(126, 15, 116);
+        padding-top: 10px;
+    }
+}
+
+.About_img{
+    width: 50%;
+    float: right;
+    min-height: 969px;
+    padding: 185px 90px 0px 100px;
+    background-color: rgba(0, 0, 0, 0.651);
+
+    img{
+        height: 0 auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}

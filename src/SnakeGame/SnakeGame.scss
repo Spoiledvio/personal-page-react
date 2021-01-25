@@ -1,0 +1,28 @@
+
+.SnakeGameCanvas{
+    min-height: 969px;
+    min-width: 100%;
+    margin:0 auto;
+    padding-left: 0;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/main3.jpg) ;
+    // background: linear-gradient(90deg, rgb(34, 2, 59) 0%, rgba(92,9,121,1) 35%, rgb(153, 82, 165) 100%); 
+    
+}
+
+canvas{
+    border: 10px solid;
+    border-image-source: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) ;
+    border-image-slice: 1;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,9,121,1) 35%, rgb(62, 30, 68) 100%);
+}
+canvas:focus{
+    border-image-source: conic-gradient(rgb(60, 4, 68), rgb(126, 5, 145), rgb(184, 56, 184), rgb(87, 29, 161), rgb(136, 60, 146), magenta, rgb(60, 4, 68)) ;
+    outline: none;
+
+}
